@@ -204,6 +204,30 @@ pip install prophet  # for Python 3.8+
 
 ---
 
+
+---
+
+## 📈 Tableau Dashboard
+
+An interactive **Tableau Public dashboard** was built alongside this notebook to visually communicate the findings from the Covid-19 pandemic analysis.
+
+🔗 **[View Dashboard → COVID-19 Pandemic Analysis on Tableau Public](https://public.tableau.com/app/profile/shaik.mubashira/viz/COVID-19_PANDEMIC_ANALYSISDS-05-BS2/COVID-19_PANDEMIC_ANALYSIS)**
+
+### What the Dashboard Covers
+
+- 🌍 **Global Overview** — Total cases, deaths, and vaccinations across all countries
+- 📅 **Time-Series Trends** — Day-by-day progression of cases and deaths worldwide
+- 🗺️ **Geographic Distribution** — Country-level choropleth maps showing spread intensity
+- 👴 **Age Group Analysis** — Impact segmented by median age, 65+ and 70+ demographics
+- 🇮🇳🇺🇸 **Country Comparisons** — Side-by-side analysis of India vs United States
+- 💉 **Vaccination Progress** — Vaccination rollout trends by country and date
+
+### Why Tableau?
+
+The notebook handles data processing and forecasting (Python + Prophet), while the Tableau dashboard complements it by providing **interactive, non-technical storytelling** — allowing stakeholders to explore the data visually without needing to run code.
+
+> 💡 This project demonstrates a full data science workflow: raw data → Python analysis → ML forecasting → Tableau visualization.
+
 ## 💡 Key Learnings
 
 - End-to-end time-series analysis pipeline on real-world pandemic data
